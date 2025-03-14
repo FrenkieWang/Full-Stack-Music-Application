@@ -17,3 +17,8 @@ app.use('/songs', songRoutes);
 app.use((request, response) => response.status(404).send('Path Not Found'));
 
 app.listen(port, () => console.log(`Server running on port ${port}`));
+
+// Test the Vercel
+app.get("/", (req, res) => {
+	res.send("You succeeded to deploy backend to Vercel!");
+});

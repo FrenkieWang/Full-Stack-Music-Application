@@ -5,7 +5,7 @@ import styled from "styled-components";
 import SongsModal from "./SongsModal";
 import AlbumsModal from "./AlbumsModal";
 
-const HOST_URL = process.env.REACT_APP_HOST_URL || 'http://localhost:5000';
+const HOST_URL = process.env.REACT_APP_HOST_URL || 'https://cs230-lab3-backend.vercel.app';
 const ARTIST_API_URL = `${HOST_URL}/artists`; 
 
 const Table = styled.table`

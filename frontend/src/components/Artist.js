@@ -34,7 +34,6 @@ function Artist() {
   // Fetch all artists when the component loads
   useEffect(() => {
     fetchArtists();
-    console.log("11", process.env.REACT_APP_HOST_URL);
   }, []);
 
   const fetchArtists = () => {

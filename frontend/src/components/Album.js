@@ -34,7 +34,6 @@ function Album() {
   useEffect(() => {
     fetchAlbums();
     fetchArtists();
-    console.log(process.env.REACT_APP_HOST_URL);
   }, []);
 
   const fetchAlbums = () => {

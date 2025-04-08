@@ -1,0 +1,5 @@
+	
+Question 1: Please define what a route, controller and model is in the context of a full-stack application. 
+
+	
+Question 2: What does it mean that React is a "component-based" framework and why is this good?
